@@ -1,5 +1,5 @@
 /**
- * Domain: fraud risk — PUBLIC TEMPLATE STUB.
+ * Domain: fraud risk - PUBLIC TEMPLATE STUB.
  *
  * ┌──────────────────────────────────────────────────────────────────────────┐
  * │ This file is a STUB in the open-source mirror. The real fraud / anti-abuse │
@@ -9,7 +9,7 @@
  * │ real, production formula, verbatim.                                        │
  * └──────────────────────────────────────────────────────────────────────────┘
  *
- * Where it plugs in — `fraud_risk` is the term SUBTRACTED in the published
+ * Where it plugs in - `fraud_risk` is the term SUBTRACTED in the published
  * AttentionScore formula:
  *
  *   AttentionScore = activity + focus + session_quality
@@ -19,7 +19,7 @@
  * case for genuine human attention), higher means more suspicious, and a window
  * at or above FRAUD_REJECT_THRESHOLD earns no reward at all.
  *
- * This stub returns 0 for every window — i.e. it treats all attention as clean.
+ * This stub returns 0 for every window - i.e. it treats all attention as clean.
  * That makes the open algorithm reproduce production EXACTLY for honest traffic
  * (production also returns ~0 there); only the abuse-detection path differs. The
  * real engine inspects per-window and cross-window signals (activity plausibility,
@@ -37,7 +37,7 @@ export const FRAUD_REJECT_THRESHOLD = 50;
  * Compute a window's fraud risk in [0, 100]. PUBLIC STUB: always 0.
  *
  * The real implementation returns a graded penalty. Illustrative shape of what
- * a real engine would return (NOT the production logic — examples only):
+ * a real engine would return (NOT the production logic - examples only):
  *
  *   return 0;   // clean: a normal human wait. No penalty. (what this stub does)
  *   return 25;  // mildly suspicious: one soft signal tripped → smaller reward.
@@ -55,7 +55,7 @@ export const FRAUD_REJECT_THRESHOLD = 50;
  *
  * @param _window  the closed attention window (unused in the stub)
  * @param _summary the window's computed summary (unused in the stub)
- * @returns 0 — no fraud signal in the open mirror.
+ * @returns 0 - no fraud signal in the open mirror.
  */
 export function computeFraudRisk(
   _window: AttentionWindow,

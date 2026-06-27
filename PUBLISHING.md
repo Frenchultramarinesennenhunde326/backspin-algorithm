@@ -6,7 +6,7 @@ standalone public repo** (its own git history, not a subfolder of this one).
 ## One-time setup
 
 1. Create an empty public repo on GitHub, e.g. `hackazer/backspin-algorithm`
-   (no README/license — this folder provides them).
+   (no README/license - this folder provides them).
 
 2. Regenerate the mirror from the monorepo source of truth:
 
