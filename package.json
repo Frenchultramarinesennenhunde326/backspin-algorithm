@@ -1,0 +1,15 @@
+{
+  "name": "@usebackspin/open-algorithm",
+  "version": "0.1.0",
+  "description": "The real BackSpin attention-exchange formulas: scoring, ranking, relevance, reputation, trust, revenue split, and market price. Open and verifiable. The fraud/anti-abuse engine is a documented stub by design.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "sync": "node scripts/sync.mjs",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3",
+    "@types/node": "24.13.2"
+  }
+}
