@@ -97,8 +97,7 @@ if any open file imports a closed module. The mirror is never hand edited, so
 
 ## Who builds BackSpin
 
-BackSpin is led by **Rizaldy Primanta Putra**, former Chainstack and Edgevana
-Blockchain Engineer.
+BackSpin were led by **Rizaldy Primanta Putra**, former Chainstack and Edgevana Blockchain Engineer.
 
 ## License
 
@@ -109,7 +108,7 @@ This repository ships under two layers:
    [LICENSE](./LICENSE). It is published so the exchange can be audited.
 
 2. **The BackSpin platform itself is proprietary and source-available, not open
-   source.** Copyright 2026 BackSpin (Rizaldy Primanta Putra). All rights
+   source.** Copyright 2026 BackSpin. All rights
    reserved. The production service, the fraud and anti-abuse engine, the
    ledger, and the surrounding product are not licensed for use, copying,
    modification, distribution, or commercialization without a written license.
